@@ -35,6 +35,13 @@
     display: block;
     text-decoration: none;
     color: black;
+    transition: all ease 0.2s;
+}
+
+.nav_menu a:hover {
+    background-color: orange;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .nav_menu a:nth-child(2) {
@@ -122,12 +129,20 @@
 
 #table_grid , .table_cover{
     gap: 5px;
+        align-items: center;
+        padding: 0 10px;
+        transition: all ease 0.2s;
+        border-radius: 10px;
 }
+
+/* #table_grid:hover , .table_cover:hover{
+    background-color: orange;
+    border: 1px solid black;
+} */
 
 #table_grid:hover , .table_cover:hover{
     background-color: #FCC980;
     border: 1px solid black;
-    border-radius: 10px;
 }
 
 #table_grid img, .table_cover img{
@@ -136,3 +151,54 @@
 }
 
 
+
+.table_content{
+    margin-top: 30px;
+}
+
+table{
+
+    border-collapse: collapse;
+}
+
+th {
+    text-transform: capitalize;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+#tr_border {
+    border-top: none;
+    border-bottom: 2px solid black;
+}
+
+tr{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black; 
+}
+
+#th1 {
+    width: 15%;
+}
+#th2{
+    width: 15%;
+}
+#th3{
+    width: 20%;
+}
+#th4{
+    width: 15%;
+}
+#th5{
+    width: 15%;
+}
+#th6{
+    width: 15%;
+}
+#th7{
+    width: 20%;
+}
+
+td{
+    padding: 10px 0;
+}
