@@ -17,6 +17,7 @@
     width: 20%;
     background-color: #F6F6F6;
     text-transform: uppercase;
+    border-right: 2px solid black;
 }
 
 .logo {
